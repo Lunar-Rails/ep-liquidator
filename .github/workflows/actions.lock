@@ -4,10 +4,10 @@
 version: 'v0.0.3'
 workflows:
     '.github/workflows/cleanup.yaml':
-        - 'vlaurin/action-ghcr-prune@v0.6.0'
+        - 'vlaurin/action-ghcr-prune@0cf7d39f88546edd31965acba78cdcb0be14d641'
     '.github/workflows/docker.yaml':
         - 'actions/checkout@v7.0.1'
-        - 'anchore/scan-action@v3.6.4'
+        - 'anchore/scan-action@3343887d815d7b07465f6fdcd395bd66508d486a'
         - 'docker/build-push-action@v7.4.0'
         - 'docker/login-action@v4.8.0'
         - 'docker/metadata-action@v4.6.0'
@@ -26,7 +26,7 @@ dependencies:
         commit: 'sha1-d8cbb8045d7f43706b9177cceb36c1f91a6644d5'
         owner_id: 44036562
         repo_id: 192624594
-    'anchore/scan-action@v3.6.4':
+    'anchore/scan-action@3343887d815d7b07465f6fdcd395bd66508d486a':
         ref: 'v3.6.4'
         commit: 'sha1-3343887d815d7b07465f6fdcd395bd66508d486a'
         owner_id: 16208487
@@ -51,7 +51,7 @@ dependencies:
         commit: 'sha1-f87e5991a6d7451dcb8d9637bfbc97413f497069'
         owner_id: 5429470
         repo_id: 288485773
-    'vlaurin/action-ghcr-prune@v0.6.0':
+    'vlaurin/action-ghcr-prune@0cf7d39f88546edd31965acba78cdcb0be14d641':
         ref: 'v0.6.0'
         commit: 'sha1-0cf7d39f88546edd31965acba78cdcb0be14d641'
         owner_id: 1534822
