@@ -7,7 +7,7 @@ workflows:
         - 'vlaurin/action-ghcr-prune@0cf7d39f88546edd31965acba78cdcb0be14d641'
     '.github/workflows/docker.yaml':
         - 'actions/checkout@v7.0.1'
-        - 'anchore/scan-action@3343887d815d7b07465f6fdcd395bd66508d486a'
+        - 'anchore/scan-action@27805bf3b4e84b4a5c980df22ed233c00390a439'
         - 'docker/build-push-action@v7.4.0'
         - 'docker/login-action@v4.8.0'
         - 'docker/metadata-action@v4.6.0'
@@ -26,9 +26,9 @@ dependencies:
         commit: 'sha1-d8cbb8045d7f43706b9177cceb36c1f91a6644d5'
         owner_id: 44036562
         repo_id: 192624594
-    'anchore/scan-action@3343887d815d7b07465f6fdcd395bd66508d486a':
-        ref: 'v3.6.4'
-        commit: 'sha1-3343887d815d7b07465f6fdcd395bd66508d486a'
+    'anchore/scan-action@27805bf3b4e84b4a5c980df22ed233c00390a439':
+        ref: 'v7.4.2'
+        commit: 'sha1-27805bf3b4e84b4a5c980df22ed233c00390a439'
         owner_id: 16208487
         repo_id: 212692077
     'docker/build-push-action@v7.4.0':
